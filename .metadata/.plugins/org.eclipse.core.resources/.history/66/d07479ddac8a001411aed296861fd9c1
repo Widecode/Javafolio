@@ -1,0 +1,17 @@
+package com.course.java.encapsulation;
+
+public class Cat {
+
+	private int age;
+	String poroda;
+	String name;
+	
+	void say(){
+		System.out.println("Meow!");
+	}
+	
+	@Override
+	public String toString(){
+		return "Cat "+name+", "+poroda+", "+age;
+	}
+}
