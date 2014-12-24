@@ -1,0 +1,24 @@
+package com.course.java.interfaces.devbus;
+
+public class DriverBus implements Transport, Driver{
+
+	
+	
+	public void setCategory(String category) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void go() {
+		if
+		
+	}
+
+	public void getSpeed() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+
+}

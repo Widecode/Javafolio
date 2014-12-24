@@ -1,0 +1,8 @@
+package com.course.java.abstractclass;
+
+public abstract class Action {
+	
+	abstract void eat();
+	abstract void say();
+
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.course.java.encapsulation.Cat"/>
+<fullyQualifiedTypeName name="com.course.java.encapsulation.People"/>
+<fullyQualifiedTypeName name="com.course.java.encapsulation.devcat.Cat"/>
+<fullyQualifiedTypeName name="com.course.java.inheritance.devpeople.People"/>
+<fullyQualifiedTypeName name="com.course.java.inheritance.devcat.Sportman"/>
+<fullyQualifiedTypeName name="com.course.java.polymorphism.devpeople.People"/>
+<fullyQualifiedTypeName name="com.course.java.abstractclass.devcat.Sportman"/>
+<fullyQualifiedTypeName name="com.course.java.abstractclass.Animals"/>
+<fullyQualifiedTypeName name="com.course.java.abstractclass.devsportman.Sportman"/>
+<fullyQualifiedTypeName name="com.course.java.abstractclass.Action"/>
+<fullyQualifiedTypeName name="com.course.java.interfaces.devpeople.People"/>
+<fullyQualifiedTypeName name="com.course.java.interfaces.devbus.DriverBus"/>
+<fullyQualifiedTypeName name="com.course.java.interfaces.devbus.Driver"/>
+<fullyQualifiedTypeName name="com.course.java.interfaces.devbus.Transport"/>
+</qualifiedTypeNameHistroy>
