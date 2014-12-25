@@ -14,4 +14,7 @@
 <fullyQualifiedTypeName name="com.course.java.interfaces.devbus.DriverBus"/>
 <fullyQualifiedTypeName name="com.course.java.interfaces.devbus.Driver"/>
 <fullyQualifiedTypeName name="com.course.java.interfaces.devbus.Transport"/>
+<fullyQualifiedTypeName name="com.course.java.override.MethodExmp"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.PUBLIC_MEMBER"/>
+<fullyQualifiedTypeName name="com.course.java.staticmod.ExmpStatic"/>
 </qualifiedTypeNameHistroy>

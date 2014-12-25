@@ -1,0 +1,10 @@
+package com.course.java.staticmod;
+
+public class ExmpStatic {
+
+	public static int a = 7;
+	
+	public static String get(){
+		return "Hello world!";
+	}
+}
