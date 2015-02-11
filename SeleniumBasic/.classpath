@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="lib/org.junit_4.11.0.v201303080030/junit.jar"/>
 	<classpathentry kind="lib" path="lib/selenium-2.44.0/selenium-java-2.44.0-srcs.jar"/>
 	<classpathentry kind="lib" path="lib/selenium-2.44.0/selenium-java-2.44.0.jar"/>
@@ -41,6 +42,5 @@
 	<classpathentry kind="lib" path="lib/selenium-2.44.0/libs/xalan-2.7.1.jar"/>
 	<classpathentry kind="lib" path="lib/selenium-2.44.0/libs/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="lib/selenium-2.44.0/libs/xml-apis-1.4.01.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

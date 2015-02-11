@@ -1,0 +1,41 @@
+package com.webdriver.dynamicElements;
+
+import java.util.List;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class IFrames {
+
+	public static WebDriver driver;
+	
+		@Before
+		public void setUp() {
+			driver=new FirefoxDriver();
+		
+			driver.get("file:///C:/Users/N.Moskal/Desktop/Javafolio/SeleniumBasic/Stuff/IFramePage.html");
+			driver.manage().window().maximize();
+		}
+		
+		@Test
+		public void testWebTables() throws InterruptedException {
+						
+			List<WebElement> frameList = driver.findElements(By.tagName("iframe"));
+			System.out.println(frameList.size());
+			driver.switchTo().frame(0);
+			driver.findElement(By.id("sb_form_q")).sendKeys("selenium");
+			driver.findElement(By.id("sb_form_q")).sendKeys(Keys.ENTER);
+			Thread.sleep(5000);
+		}
+			
+		@After
+		public void tearDown() {             
+			driver.quit();
+		}		
+}
