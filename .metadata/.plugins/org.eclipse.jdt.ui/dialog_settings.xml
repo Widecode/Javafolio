@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<item value="J2SE-1.5" key="org.eclipse.jdt.ui.last.selected.execution.enviroment"/>
 	<item value="C:\Users\N.Moskal\Desktop\Javafolio\JavaBasic\lib\selenium-2.44.0\libs" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="1" key="org.eclipse.jdt.ui.last.selected.jre.kind2"/>
+	<item value="git_lib" key="org.eclipse.jdt.ui.last.selected.project.jre"/>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 		<item value="false" key="renameSubpackages"/>
 		<item value="false" key="updateQualifiedNames"/>

@@ -1,8 +1,0 @@
-package com.course.java.abstractclass;
-
-public abstract class Football {
-	
-	abstract void run();
-	abstract void kick();
-
-}

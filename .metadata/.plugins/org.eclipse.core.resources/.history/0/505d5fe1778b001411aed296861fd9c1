@@ -1,7 +1,0 @@
-package com.course.java.interfaces.dev;
-
-public interface Driver {
-	
-	public void setCategory(String category);
-
-}

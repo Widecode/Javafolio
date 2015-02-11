@@ -1,8 +1,0 @@
-package com.course.java.interfaces.dev;
-
-public interface Transport {
-	
-	public void go();
-	public void getSpeed();
-
-}

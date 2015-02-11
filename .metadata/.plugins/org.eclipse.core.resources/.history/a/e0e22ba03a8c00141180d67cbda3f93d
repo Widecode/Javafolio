@@ -1,7 +1,0 @@
-package com.course.java.forceexception;
-
-public class MyException extends Exception{
-	
-	throw new MyException();
-
-}
