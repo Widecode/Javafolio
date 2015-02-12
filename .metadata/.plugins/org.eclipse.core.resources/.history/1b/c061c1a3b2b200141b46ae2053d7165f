@@ -1,0 +1,29 @@
+package com.webdriver.exceptions;
+
+public class ExceptionHandling {
+	public static String[] arr;
+	
+	public static void main(String... args) throws Exception {
+		
+		arr = new String[2];
+		try{
+		System.out.println(arr[5]);
+		}catch (ArrayIndexOutOfBoundsException ex){
+			System.out.println("Element doesn't exist");
+			throwsException(arr);
+		}catch (Throwable th){
+			System.out.println("Element doesn't exist");			
+		}	
+		
+	}
+	
+	public static void throwsException(String[] arr2) throws Exception{
+		
+		arr = new String[2];
+		while(arr != arr2){
+			System.out.print("Arrays aren't equal");
+		}		
+	}
+	
+
+}
